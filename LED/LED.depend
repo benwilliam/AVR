@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1316028528 source:d:\avr\led\spi.c
+	"LEDMatrix.h"
+
+1315993094 d:\avr\led\ledmatrix.h
+	"main.h"
+
+1315908062 source:d:\avr\led\canvas.c
+	"LEDMatrix.h"
+	"fastMath.h"
+	"characters.h"
+
+1315407109 d:\avr\led\fastmath.h
+
+1315490853 d:\avr\led\characters.h
+
+1316028422 source:d:\avr\led\characters.c
+	<avr/pgmspace.h>
+
+1316028430 source:d:\avr\led\fastmath.c
+	<avr/pgmspace.h>
+
+1316028458 source:d:\avr\led\main.c
+	<stdio.h>
+	"main.h"
+	"LEDMatrix.h"
+	"canvas.h"
+
+1315908075 d:\avr\led\canvas.h
+
+1315382529 source:d:\avr\led\ledmatrix.c
+	"LEDMatrix.h"
+
+1316028470 d:\avr\led\main.h
+
+1316209734 source:d:\avr-projects\led\canvas.c
+	"LEDMatrix.h"
+	"fastMath.h"
+	"characters.h"
+
+1316272265 d:\avr-projects\led\ledmatrix.h
+	"main.h"
+
+1316272875 d:\avr-projects\led\main.h
+
+1316212933 d:\avr-projects\led\fastmath.h
+
+1316209780 d:\avr-projects\led\characters.h
+
+1316271553 source:d:\avr-projects\led\characters.c
+
+1316271559 source:d:\avr-projects\led\fastmath.c
+
+1316272045 source:d:\avr-projects\led\main.c
+	<stdio.h>
+	"main.h"
+	"LEDMatrix.h"
+	"canvas.h"
+	"SPI.h"
+	"PCDebug.h"
+
+1316209755 d:\avr-projects\led\canvas.h
+
+1316271843 d:\avr-projects\led\spi.h
+
+1316271705 source:d:\avr-projects\led\ledmatrix.c
+	"LEDMatrix.h"
+	<avr/interrupt.h>
+
+1316272449 source:d:\avr-projects\led\spi.c
+	"LEDMatrix.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1315492663 d:\avr-projects\led\pcdebug.h
+	<stdio.h>
+

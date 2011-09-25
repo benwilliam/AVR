@@ -16,6 +16,7 @@
 					<Add option="-msize" />
 					<Add option="-mmcu=atmega8" />
 					<Add option="-Os" />
+					<Add option="-O3" />
 					<Add option="-W" />
 					<Add option="-Wall" />
 				</Compiler>

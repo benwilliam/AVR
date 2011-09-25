@@ -85,15 +85,13 @@ void printClock()
     printChar(30, 0, ':');
     printNumber(36, TIME.sec);
     printChar(48, 0, '.');
-    printNumber(54, TIME.hour);
+    printNumber(54, TIME.hsec);
 
 }
 
 ISR(TIMER1_COMPA_vect)
 {
-	cli();
     incrementTime(&TIME);
-	sei();
 }
 
 int main (void)
@@ -103,14 +101,14 @@ int main (void)
 	// TCCR1A |= (0 << WGM11) | (1 << WGM10);
     TCCR1B |= (1<<WGM12) | (1<<CS11) | (1<<CS10);
     //set compare 8MHz/256
-    OCR1A = 1250;
+    OCR1A = 1250-1;
 
 	//enable interrupt
 	TIMSK |= (1<<OCIE1A);
 
 
     init();
-
+    sei();
 
 	//main programm
 	while(1)
@@ -119,7 +117,7 @@ int main (void)
 		clearWorkingBuffer();
         printClock();
         switchBuffer();
-        incrementTime();
+        //incrementTime();
 
 	}
 	return 0;

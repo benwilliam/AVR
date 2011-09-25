@@ -33,7 +33,7 @@ static unsigned char curentLine = 0;
 void resetTimer()
 {
     //set countingvalue
-    TCNT0 = (0xff - (COUNTER) + 2);
+    TCNT0 = 220;//(0xff - (COUNTER-9));
 }
 
 void initTimer()
@@ -44,7 +44,7 @@ void initTimer()
     resetTimer();
 
     //enable Timer0 interrupt
-    TIMSK = 0x01;
+    TIMSK |= (1<<TOIE0);
 
 }
 void initPortLines()

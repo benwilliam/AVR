@@ -35,10 +35,11 @@
 //----------------------------------
 
 
-#define CLOCK_COUNTS 300 //grobe abschätzung der bneötigten ticks zur ausgabe einer zeile (erfahrungs wert) (bei voller optimierung)
+#define CLOCK_COUNTS 1000 //grobe abschätzung der bneötigten ticks zur ausgabe einer zeile (erfahrungs wert) (bei voller optimierung)
 #define LINERATE FRAMERATE*HEIGHT
-#define COUNTER (F_CPU/(LINERATE*CLOCK_COUNTS))
-#if (COUNTER == 0)
+#define PRESCALER 256
+#define COUNTER (F_CPU/(LINERATE*PRESCALER))
+#if ((COUNTER == 0) || (COUNTER*PRESCALER < CLOCK_COUNTS))
 	#error Framerate ist definitiv zu hoch!! (oder CPU zu langsam :-p)
 #endif
 

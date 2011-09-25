@@ -1,4 +1,5 @@
-This is a porject about a LED dotMatrix with a ATmega8.
+This is a porject about a LED dotMatrix with a ATmega8 written in C build with GCC.
+the core function should work in every C envirement.
 
 the whole project ist published with LGPL.
 

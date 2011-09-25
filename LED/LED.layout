@@ -2,39 +2,39 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
 	<File name="LEDMatrix.c" open="1" top="0" tabpos="2">
-		<Cursor position="902" topLine="0" />
+		<Cursor position="902" topLine="37" />
 	</File>
 	<File name="LEDMatrix.h" open="1" top="0" tabpos="3">
-		<Cursor position="714" topLine="0" />
+		<Cursor position="813" topLine="9" />
 	</File>
-	<File name="SPI.c" open="1" top="1" tabpos="6">
-		<Cursor position="321" topLine="0" />
+	<File name="SPI.c" open="1" top="0" tabpos="6">
+		<Cursor position="1175" topLine="51" />
 	</File>
 	<File name="SPI.h" open="1" top="0" tabpos="11">
 		<Cursor position="57" topLine="0" />
 	</File>
 	<File name="canvas.c" open="1" top="0" tabpos="8">
-		<Cursor position="471" topLine="0" />
+		<Cursor position="10333" topLine="401" />
 	</File>
 	<File name="canvas.h" open="1" top="0" tabpos="9">
-		<Cursor position="1261" topLine="0" />
+		<Cursor position="1136" topLine="0" />
 	</File>
 	<File name="characters.c" open="1" top="0" tabpos="5">
-		<Cursor position="4826" topLine="57" />
+		<Cursor position="4826" topLine="0" />
 	</File>
 	<File name="characters.h" open="1" top="0" tabpos="4">
 		<Cursor position="192" topLine="0" />
 	</File>
 	<File name="fastMath.c" open="1" top="0" tabpos="7">
-		<Cursor position="2275" topLine="102" />
+		<Cursor position="2530" topLine="103" />
 	</File>
 	<File name="fastMath.h" open="1" top="0" tabpos="12">
-		<Cursor position="142" topLine="0" />
+		<Cursor position="350" topLine="0" />
 	</File>
-	<File name="main.c" open="1" top="0" tabpos="1">
-		<Cursor position="100" topLine="0" />
+	<File name="main.c" open="1" top="1" tabpos="1">
+		<Cursor position="1589" topLine="25" />
 	</File>
 	<File name="main.h" open="1" top="0" tabpos="10">
-		<Cursor position="2" topLine="0" />
+		<Cursor position="113" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

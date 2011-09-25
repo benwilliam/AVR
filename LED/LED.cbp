@@ -14,10 +14,10 @@
 				<Option compiler="avrgcc" />
 				<Compiler>
 					<Add option="-msize" />
+					<Add option="-mmcu=atmega8" />
 					<Add option="-Os" />
 					<Add option="-W" />
 					<Add option="-Wall" />
-					<Add option="-mmcu=atmega8" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />

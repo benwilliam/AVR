@@ -33,23 +33,27 @@
 
 1316028470 d:\avr\led\main.h
 
-1316209734 source:d:\avr-projects\led\canvas.c
+1316332018 source:d:\avr-projects\led\canvas.c
 	"LEDMatrix.h"
 	"fastMath.h"
 	"characters.h"
+	<avr/pgmspace.h>
+	<string.h>
 
-1316272265 d:\avr-projects\led\ledmatrix.h
+1316275342 d:\avr-projects\led\ledmatrix.h
 	"main.h"
 
-1316272875 d:\avr-projects\led\main.h
+1316286941 d:\avr-projects\led\main.h
 
-1316212933 d:\avr-projects\led\fastmath.h
+1316332079 d:\avr-projects\led\fastmath.h
 
-1316209780 d:\avr-projects\led\characters.h
+1316275965 d:\avr-projects\led\characters.h
 
-1316271553 source:d:\avr-projects\led\characters.c
+1316275959 source:d:\avr-projects\led\characters.c
+	<avr/pgmspace.h>
 
-1316271559 source:d:\avr-projects\led\fastmath.c
+1316335440 source:d:\avr-projects\led\fastmath.c
+	<avr/pgmspace.h>
 
 1316272045 source:d:\avr-projects\led\main.c
 	<stdio.h>
@@ -67,7 +71,7 @@
 	"LEDMatrix.h"
 	<avr/interrupt.h>
 
-1316272449 source:d:\avr-projects\led\spi.c
+1316331977 source:d:\avr-projects\led\spi.c
 	"LEDMatrix.h"
 	<avr/io.h>
 	<avr/interrupt.h>

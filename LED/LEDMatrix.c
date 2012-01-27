@@ -26,7 +26,7 @@
 unsigned char outPutBufferArray[BUFFER_WIDTH][HEIGHT];
 unsigned char workingBufferArray[BUFFER_WIDTH][HEIGHT];
 
-unsigned char (*outPutBuffer)[HEIGHT] = outPutBufferArray; //pointer auf puffer der an die LED matrix zeilenweise übertragen wird
+unsigned char (*outPutBuffer)[HEIGHT] = outPutBufferArray; //pointer auf puffer der an die LED matrix zeilenweise ï¿½bertragen wird
 unsigned char (*workingBuffer)[HEIGHT] = workingBufferArray; //pointer auf den gezeichnet wird
 
 //gibt den wert eines bestimtmen bits eines bytes wieder
